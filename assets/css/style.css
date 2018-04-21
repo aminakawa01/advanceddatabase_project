@@ -1,0 +1,285 @@
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+
+/* Home/Index.html/About */
+
+
+body {
+    background-image: url("../images/Your-Nutrition.jpg");
+}
+
+/* HEADER AREA */
+
+.headerWrapper {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    border-top: 2px solid #d0cdc7;
+    border-bottom: 2px solid rgb(2, 126, 2);
+    background-color: rgb(2, 126, 2);
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.nameContainer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    display: inline-block;
+}
+
+.logo {
+    font-size: 40px;
+    padding-left: 40px;
+    font-family: 'Anton', sans-serif;
+    display: inline-block;
+}
+
+.pageLink {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.pageLink a {
+    text-decoration: none;
+    color: white;
+}
+
+.pageLink a:hover {
+    color: rgb(16, 240, 16);
+}
+
+.link1 {
+    border-right: 1px solid #e2e0dd;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.link2 {
+    border-right: 1px solid #e2e0dd;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.link3 {
+    padding-left: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+
+
+/* MAIN CONTENT AREA */
+
+.bodyContainer {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.aboutmeWrapper {
+    width: 65%;
+    background-color: #fff;
+    margin-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    border: 1px solid #e2e0dd;
+}
+
+.aboutMe {
+    border-bottom: 3px solid #eeedeb;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-style: bold;
+    color: rgb(2, 126, 2);
+    font-family: 'Oswald', sans-serif;
+}
+
+.portrait {
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 1.5%;
+}
+
+p {
+    font-size: 22px;
+    line-height: 38px;
+    color: black;
+    margin-bottom: 18px;
+}
+
+ul {
+    list-style-type: circle;
+    color: black;
+    margin-left: 10%;
+    margin-bottom: 18px;
+    line-height: 37px;
+}
+
+.connectwithmeWrapper {
+    background-color: #fff;
+    margin-top: 25px;
+    width: 21%;
+    height: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #e2e0dd;
+}
+
+.connectwithMe {
+    font-size: 24px;
+    font-style: bold;
+    border-bottom: 2px solid #efeeec;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    color: rgb(2, 126, 2);
+    font-family: 'Oswald', sans-serif;
+}
+
+/* .socialContainer {
+    width: 100%;
+    } */
+
+.imageLink {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.social1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+
+/* FOOTER AREA */
+
+footer {
+    width: 100%;
+    background-color: rgb(2, 126, 2);
+    color: white;
+    text-align: Center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+    border-top: 5px solid rgb(9, 226, 9);
+}
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+
+/* Portfolio Page */
+
+.portfolioContainer {
+    flex-flow: row wrap; */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+a.picture {
+    position: absolute;
+    top: 67%;
+    text-align: center;
+    background-color: rgb(2, 126, 2);
+    width: 100%;
+    left: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+
+/* Contact Page */
+
+.formContainer {
+    margin-bottom: 30px;
+}
+
+.contactTitle {
+    border-bottom: 3px solid #eeedeb;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-style: bold;
+    color: rgb(2, 126, 2);
+    font-family: 'Oswald', sans-serif;}
+
+.form {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-top: 25px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+::placeholder {
+    color: #a1a6ac;
+    opacity: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+ 
+
+input[type=submit] {
+    background-color: rgb(2, 126, 2);
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(2, 126, 2);
+}
